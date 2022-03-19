@@ -1,0 +1,58 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-weight: normal;
+  color: rgb(235, 223, 223);
+}
+
+
+.container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+
+ height: 100vh;
+ background-color: #161616;
+}
+.Logo {
+  height: 208px ;
+  width: 208px;
+}
+.Form {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Email {
+  height: 62px;
+  width: 411px;
+  border-radius: 6px;
+  padding-left: 18px;
+  font-size: 16px;
+
+  margin-top: 30px;
+
+  box-shadow: 4px 7px 8px 0px rgb(236, 0, 0); 
+
+  color:rgb(236, 0, 0) ;
+}
+
+.password {
+  height: 62px;
+  width: 411px;
+  border-radius: 6px;
+  padding-left: 16px;
+  font-size: 16px;
+
+  margin-top: 52px;
+
+box-shadow: 4px 7px 8px 0px rgb(235, 21, 21);
+
+  color:rgb(235, 21, 21);
+
+}
